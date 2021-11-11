@@ -240,7 +240,7 @@ public class MyTreeMap<K extends Comparable<K>, V> {
         }
         return isBalanced = isBalanced && Math.abs(node.left.height - node.right.height) <= 1;
     }
-    
+
     @Override
     public String toString() {
         return toString(root);
